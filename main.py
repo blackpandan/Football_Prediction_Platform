@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes import auth, matches, predictions, leaderboard, websocket
+from routes import auth, matches, predictions, leaderboard, websocket
 
 app = FastAPI()
 

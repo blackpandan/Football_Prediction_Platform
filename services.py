@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app import models
+from . import models
 
 def calculate_points(match: models.Match, prediction: models.Prediction) -> int:
     if match.team_a_score is None or match.team_b_score is None:
